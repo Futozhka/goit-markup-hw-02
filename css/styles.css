@@ -6,11 +6,25 @@ button {
   font-family: Raleway;
   font-size: 18px;
   font-weight: 800;
-  line-height: 21px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-align: left;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  
 }
-
+.link {
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-align: left;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  color: #2e2f42; 
+}
 .menu-nav a {
   color: #2e2f42;
   font-family: Roboto;
@@ -46,7 +60,9 @@ button {
   text-decoration: underline;
 }
 body {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #FFFFFF;
 }
 
 .but-click {
