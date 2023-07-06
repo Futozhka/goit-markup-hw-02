@@ -19,6 +19,7 @@
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   color: var(--iris-color);
+  text-decoration: none;
   
 }
 .link {
