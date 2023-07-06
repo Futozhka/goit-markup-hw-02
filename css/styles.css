@@ -1,6 +1,12 @@
-button {
-  cursor: pointer;
+:root {
+  --primary-font: "Roboto", sans-serif;
+  --navy-blue-modal-color: #2E2F42;
+  --slate-color: #434455;
+  
 }
+
+
+
 
 .logo-main {
   font-family: Raleway;
@@ -15,7 +21,7 @@ button {
   
 }
 .link {
-  font-family: Raleway;
+  font-family: "Raleway" sans-serif;
   font-size: 18px;
   font-weight: 800;
   line-height: 1.17;
@@ -24,8 +30,9 @@ button {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   color: #2e2f42; 
+  text-decoration: none;
 }
-.menu-nav a {
+.list a {
   color: #2e2f42;
   font-family: Roboto;
   font-size: 16px;
@@ -35,73 +42,81 @@ button {
   text-align: left;
 }
 
-.menu-nav :hover,
-.menu-nav :focus {
+.list :hover,
+.list :focus {
   color: #404bbf;
 }
 
-.menu-nav-address a {
-  color: #2e2f42;
-  font-family: Roboto;
-  font-size: 16px;
+.list-one {
   font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 4%;
-  text-align: left;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue-modal-color);
+
 }
-.menu-nav-address :hover,
-.menu-nav-address :focus {
+
+.list-one :hover,
+.list-one :focus {  
   color: #404bbf;
-  font-family: Roboto;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 4%;
-  text-decoration: underline;
 }
+
+.nav-address{
+  font-style:normal;
+}
+
+.list-link{
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate-color);
+}
+
+.list-link :hover,
+.list-link :focus {
+  color: #404bbf;
+}
+
+.section-one {
+  color: var(--navy-blue-modal-color);
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.section-one-h1 {
+  font-size: 56px
+}
+
+.section-two {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue-modal-color);
+}
+
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--primary-font);
   color: #434455;
   background-color: #FFFFFF;
 }
 
 .but-click {
   background-color: #4d5ae5;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
-  size: 16px;
-  line-height: 24px;
-  letter-spacing: 4%;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
 }
 
 .but-click :hover,
 .but-click :focus {
   background-color: #404bbf;
+  
 }
 
-h1 {
-  font-family: Roboto;
-  font-size: 56px;
-  font-weight: 700;
-  line-height: 60px;
-  letter-spacing: 0.02em;
-  text-align: center;
-}
-
-h2 {
-  font-family: Roboto;
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 40px;
-  letter-spacing: 0.02em;
-  text-align: center;
-}
-
-h3 {
-  font-family: Roboto;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  text-align: left;
-}
