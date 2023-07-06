@@ -2,14 +2,15 @@
   --primary-font: "Roboto", sans-serif;
   --navy-blue-modal-color: #2E2F42;
   --slate-color: #434455;
-  
+  --iris-color: #4D5AE5;
+  --cloud-color: #F4F4FD;
 }
 
 
 
 
 .logo-main {
-  font-family: Raleway;
+  font-family: "Raleway" sans-serif;
   font-size: 18px;
   font-weight: 800;
   line-height: 1.17;
@@ -17,7 +18,7 @@
   text-align: left;
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: var(--iris-color);
   
 }
 .link {
@@ -78,15 +79,16 @@
 }
 
 .section-one {
-  color: var(--navy-blue-modal-color);
+  background-color: var(--navy-blue-modal-color);
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
 }
 
-.section-one-h1 {
-  font-size: 56px
+.section-one-header {
+  font-size: 56px;
+  letter-spacing: 0.02em;
 }
 
 .section-two {
@@ -97,13 +99,57 @@
   color: var(--navy-blue-modal-color);
 }
 
+.section-two-header {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue-modal-color);
+}
+
+
+.section-two-paragraph{
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate-color);
+}
+
+.section-three-header{
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--navy-blue-modal-color);
+}
+
+.section-three {
+  background-color: #F4F4FD;
+}
+
+.list-four{
+  background-color: #FFFFFF;
+
+}
+
+.section-footer {
+  background-color: var(--navy-blue-modal-color);
+}
+
+.footer-paragraph {
+  line-height: 1.5;
+  color: var(--cloud-color);
+  letter-spacing: 0.02em;
+}
+
 body {
   font-family: var(--primary-font);
   color: #434455;
   background-color: #FFFFFF;
 }
 
-.but-click {
+.button-click {
   background-color: #4d5ae5;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -114,9 +160,7 @@ body {
   cursor: pointer;
 }
 
-.but-click :hover,
-.but-click :focus {
-  background-color: #404bbf;
-  
+.button-click :focus,
+.button-click :hover {
+  background-color: #404BBF;
 }
-
