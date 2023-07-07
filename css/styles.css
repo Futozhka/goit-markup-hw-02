@@ -10,7 +10,7 @@
 
 
 
-.logo-class link{
+.logo-class{
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -20,8 +20,12 @@
   color: var(--iris-color);
 }
 
-.logo-class .link {
+.logo-class.link {
   text-decoration: none;
+}
+
+.span-logo {
+  color: var(--navy-blue-modal-color);
 }
   
 
@@ -39,7 +43,7 @@
 }
 .list a {
   color: #2e2f42;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
@@ -154,9 +158,7 @@ body {
   background-color: #FFFFFF;
 }
 
-.span-logo {
-  color: var(--navy-blue-modal-color);
-}
+
 
 .button-class {
   background-color: #4D5AE5;
