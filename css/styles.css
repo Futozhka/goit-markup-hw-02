@@ -42,7 +42,7 @@
   text-decoration: none;
 }
 .list a {
-  color: #2e2f42;
+  color: var(--slate-color);
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
