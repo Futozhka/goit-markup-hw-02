@@ -37,7 +37,7 @@
   text-decoration: none;
 }
 .list a {
-  color: var(--slate-color);
+  color: var(--navy-blue-modal-color);
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
