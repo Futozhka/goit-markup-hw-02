@@ -78,8 +78,8 @@
   color: var(--slate-color);
 }
 
-.list-link :hover,
-.list-link :focus {
+.list .list-link :hover,
+.list .list-link :focus {
   color: #404bbf;
 }
 
