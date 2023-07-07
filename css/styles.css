@@ -83,6 +83,10 @@
   color: #404bbf;
 }
 
+.list-link link {
+  color: var(--slate-color);
+}
+
 .section-one {
   background-color: var(--navy-blue-modal-color);
   line-height: 1.07;
