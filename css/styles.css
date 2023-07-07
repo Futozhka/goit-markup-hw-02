@@ -20,7 +20,7 @@
   color: var(--iris-color);
 }
 
-.logo-class.link {
+.logo-class .link {
   text-decoration: none;
 }
   
