@@ -165,7 +165,18 @@ body {
   cursor: pointer;
 }
 
-.button-class :hover,
-.button-class :focus {
+.button-class:hover,
+.button-class:focus {
+  background-color: #404BBF;
+}
+
+.button-click {
+  color: var(--iris-color);
+  background-color: var(--cloud-color);
+}
+
+.button-click:hover,
+.button-clicl:focus {
+  color: #FFFFFF;
   background-color: #404BBF;
 }
