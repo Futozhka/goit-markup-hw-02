@@ -24,6 +24,9 @@
   color: var(--navy-blue-modal-color);
 }
   
+.span-logo-two {
+  color: #f4f4fd;
+}
 
 .link {
   font-size: 18px;
@@ -65,6 +68,10 @@
 
 .nav-address{
   font-style:normal;
+}
+
+.list-one .link {
+  color: var(--navy-blue-modal-color);
 }
 
 .list-link{
