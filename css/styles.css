@@ -2,7 +2,7 @@
   --primary-font: "Roboto", sans-serif;
   --navy-blue-modal-color: #2E2F42;
   --slate-color: #434455;
-  --iris-color: #4D5AE5;
+  --iris-color: #4d5ae5;
   --cloud-color: #F4F4FD;
 }
 
@@ -10,7 +10,7 @@
 
 
 
-.logo-class {
+.logo-class link{
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
