@@ -10,20 +10,19 @@
 
 
 
-  .logo-main {
-    font-family: "Raleway", sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--iris-color);
-    text-decoration: none;
-  }
-  
-  .logo-class.link {
-    text-decoration: none;
-  }
+.logo-class {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--iris-color);
+}
+
+.logo-class.link {
+  text-decoration: none;
+}
   
 
 .link {
@@ -46,6 +45,7 @@
   line-height: 24px;
   letter-spacing: 0.02em;
   text-align: left;
+  list-style: none;
 }
 
 .list :hover,
@@ -71,7 +71,7 @@
   font-style:normal;
 }
 
-.list-link link{
+.list-link{
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -155,7 +155,7 @@ body {
 }
 
 .span-logo {
-  color: #f4f4fd;
+  color: var(--navy-blue-modal-color);
 }
 
 .button-class {
