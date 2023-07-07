@@ -79,14 +79,12 @@
   color: var(--slate-color);
 }
 
-.list-link :hover,
-.list-link :focus {
+.list a .list-link :hover,
+.list a .list-link :focus {
   color: #404bbf;
 }
 
-.list-link link {
-  color: var(--slate-color);
-}
+
 
 .section-one {
   background-color: var(--navy-blue-modal-color);
