@@ -36,7 +36,7 @@
   font-family: "Raleway", sans-serif;
   text-decoration: none;
 }
-.list  {
+.list a {
   color: var(--navy-blue-modal-color);
   font-family: "Roboto", sans-serif;
   font-size: 16px;
@@ -70,15 +70,13 @@
   font-style:normal;
 }
 
-.list {
- color: var(--slate-color);
-}
 
-.list-link {
+
+.list a.list-link {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-
+  color: var(--slate-color);
 }
 
 .list-link :hover,
