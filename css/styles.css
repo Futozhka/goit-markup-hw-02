@@ -35,7 +35,6 @@
   letter-spacing: 0.03em;
   font-family: "Raleway", sans-serif;
   text-decoration: none;
-  color: var(--navy-blue-modal-color);
 }
 .list a {
   color: var(--slate-color);
