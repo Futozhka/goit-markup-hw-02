@@ -10,7 +10,7 @@
 
 
 
-.logo-class{
+.logo-class {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -52,8 +52,8 @@
   list-style: none;
 }
 
-.list :hover,
-.list :focus {
+.list:hover,
+.list:focus {
   color: #404bbf;
 }
 
@@ -66,8 +66,8 @@
 
 }
 
-.list-one :hover,
-.list-one :focus {  
+.list-one:hover,
+.list-one:focus {  
   color: #404bbf;
 }
 
@@ -82,8 +82,8 @@
   color: var(--slate-color);
 }
 
-.list-link :hover,
-.list-link :focus {
+.list-link:hover,
+.list-link:focus {
   color: #404bbf;
 }
 
