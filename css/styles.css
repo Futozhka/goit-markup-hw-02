@@ -70,11 +70,11 @@
   font-style:normal;
 }
 
-.list-one .link {
+.list-one {
   color: var(--navy-blue-modal-color);
 }
 
-.list-link{
+.list-link {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
