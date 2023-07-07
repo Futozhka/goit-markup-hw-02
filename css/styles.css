@@ -71,15 +71,15 @@
 }
 
 
-.list .list-link {
+.list-link {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate-color);
 }
 
-.list .list-link :hover,
-.list .list-link :focus {
+.list-link :hover,
+.list-link :focus {
   color: #404bbf;
 }
 
