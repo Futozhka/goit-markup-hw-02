@@ -150,8 +150,12 @@ body {
   background-color: #FFFFFF;
 }
 
-.button-click {
-  background-color: #4d5ae5;
+.span-logo {
+  color: #f4f4fd;
+}
+
+.button-class {
+  background-color: #4D5AE5;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -161,7 +165,7 @@ body {
   cursor: pointer;
 }
 
-.button-click :focus,
-.button-click :hover {
+.button-class :hover,
+.button-class :focus {
   background-color: #404BBF;
 }
