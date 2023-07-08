@@ -79,7 +79,7 @@
   color: #404bbf;
 }
 
-.list-link a {
+.list-link link {
   color: var(--slate-color);
   font-family: "Roboto", sans-serif;
   font-size: 16px;
