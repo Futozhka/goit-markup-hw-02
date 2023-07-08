@@ -29,11 +29,6 @@
 }
 
 .link {
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  font-family: "Raleway", sans-serif;
   text-decoration: none;
 }
 .list a {
@@ -86,6 +81,13 @@
 
 .list-link {
   color: var(--slate-color);
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  list-style: none;
 }
 
 
