@@ -4,6 +4,13 @@
   --slate-color: #434455;
   --iris-color: #4d5ae5;
   --cloud-color: #F4F4FD;
+  --ocean-color: #404BBF;
+  --green-color: #31D0AA;
+  --light-slate-color: #8E8F99;
+  --cornflower-color: #E7E9FC;
+  --white-color: #FFFFFF;
+  --gray-color: #2E2F42;
+  --dairy: #FCFCFC;
 }
 
 
@@ -32,17 +39,11 @@
   text-decoration: none;
 }
 .list  {
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  text-align: left;
   list-style: none;
 }
 
-.list :hover,
-.list :focus {
+.list:hover,
+.list:focus {
   color: #404bbf;
 }
 
@@ -55,8 +56,8 @@
 
 }
 
-.list-one :hover,
-.list-one :focus {  
+.list-one:hover,
+.list-one:focus {  
   color: #404bbf;
 }
 
@@ -77,8 +78,8 @@
   list-style: none;
 }
 
-.list-link :hover,
-.list-link :focus {
+.list-link:hover,
+.list-link:focus {
   color: #404bbf;
 }
 
