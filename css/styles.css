@@ -71,7 +71,6 @@
   color: var(--slate-color);
   font-family: "Roboto", sans-serif;
   font-size: 16px;
-  font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.02em;
   text-align: left;
@@ -99,7 +98,6 @@
 }
 
 .section-two {
-  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
